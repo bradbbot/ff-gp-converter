@@ -1,0 +1,2475 @@
+{
+  "metadata": {
+    "name": "Mooney M20F",
+    "makeAndModel": "1967 M20F",
+    "aircraftInfo": "N9622M"
+  },
+  "groups": [
+    {
+      "title": "Pre-Flight Inspection",
+      "checklists": [
+        {
+          "title": "Preflight Checklist",
+          "items": [
+            {
+              "prompt": "COCKPIT",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Required Documents",
+              "expectation": "AVAILABLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flashlight On Board",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "If night flying",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "All Switches",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear",
+              "expectation": "DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Master Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Gauges",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear Indicators",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Push to test",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Beacon, Nav. & Strobe Lights",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Master Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ignition Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RIGHT WING",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Flap",
+              "expectation": "SECURE & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Aileron",
+              "expectation": "FREEDOM OF MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Wing Tip & Light",
+              "expectation": "UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tiedown",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Tank",
+              "expectation": "FULL & CAP SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Color",
+              "expectation": "BLUE (100LL) ",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tank Drain",
+              "expectation": "DRAIN, SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear, Doors",
+              "expectation": "UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tire",
+              "expectation": "PROPERLY INFLATED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Gust Lock",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "NOSE",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Windshield",
+              "expectation": "CLEAN & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine Oil Level",
+              "expectation": "6 TO 8 QUARTS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Dipstick",
+              "expectation": "SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "SECURE & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "No nicks or cracks",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Spinner",
+              "expectation": "SECURE & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Air Filters",
+              "expectation": "CLEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cowling",
+              "expectation": "SECURE & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "No loose attachments",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Landing Light",
+              "expectation": "UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Nose Gear Doors",
+              "expectation": "UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tire",
+              "expectation": "PROPERLY INFLATED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tow Bar",
+              "expectation": "REMOVED & STOWED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Chocks",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Alternator Belt",
+              "expectation": "PROPER TENSION",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Sump Drain",
+              "expectation": "DRAIN & SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "LEFT WING",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Fuel Tank",
+              "expectation": "FULL & CAP SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Color",
+              "expectation": "BLUE (100LL) ",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tank Drain",
+              "expectation": "DRAIN, SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Gear, Door",
+              "expectation": "UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tire",
+              "expectation": "PROPERLY INFLATED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Wing Tip & Light",
+              "expectation": "UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tiedown",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitot Mast",
+              "expectation": "UNOBSTRUCTED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Gust Lock",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Aileron",
+              "expectation": "FREEDOM OF MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flap",
+              "expectation": "SECURE & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "EMPENNAGE",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Gust Lock",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Elevator",
+              "expectation": "FREEDOM OF MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rudder",
+              "expectation": "FREEDOM OF MOVEMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Empennage Play (Jack Screw)",
+              "expectation": "LESS THAN 1/2\"",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tail Cone & Light",
+              "expectation": "SECURE & UNDAMAGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tie Down",
+              "expectation": "REMOVED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "FINAL WALK AROUND",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Final Walk Around",
+              "expectation": "COMPLETED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Before Starting Engine",
+      "checklists": [
+        {
+          "title": "Before Starting Engine",
+          "items": [
+            {
+              "prompt": "Preflight Inspection",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Seats, Seat Belts",
+              "expectation": "ADJUSTED & LOCKED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Door",
+              "expectation": "LATCHED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector",
+              "expectation": "FULLEST TANK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector Valve",
+              "expectation": "DRAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Drain the fuel selector valve on the floorboard and turn the selector to the proper tank. Be sure the drain returns to \"Off\" position and that the pull ring is properly positioned in the cavity provided.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Radios & Electrical Equipment",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power Boost",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power Boost control in filtered air (OFF) position",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Cowl Flaps",
+              "expectation": "OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Controls",
+              "expectation": "FREE & CORRECT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Circuit Breakers",
+              "expectation": "CHECK IN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Master Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Green gear indicator light, \"Low Vacuum\" warning light, turn coordinator should come on",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "EDM Fuel Quantity",
+              "expectation": "VERIFIED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Reset as Necessary",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Engine Start",
+      "checklists": [
+        {
+          "title": "Engine Start (POH)",
+          "items": [
+            {
+              "prompt": "(Hot start, alternate cold start, and flooded start procedures moved to Abnormal section)",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "MAG Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Conventional mag must be off to prevent kickback",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "EIS Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "UNLOCKED & OPEN 1/8\"",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propellor control",
+              "expectation": "FULL FORWARD ( HIGH RPM)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Note fuel pressure indication",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH (3 SECONDS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Move mixture to full rich (forward) position for three seconds and return to idle cutoff (aft). Do not keep the mixture control in the full rich position more than a few seconds with the boost pump on to avoid flooding the engine.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "In extremely cold weather it may be necessary to provide additional priming to the engine by holding mixture control in the full rich position a few seconds longer than usual.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1/4\"",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "START Switch",
+              "expectation": "PRESS ",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "When engine fires turn on MAG switch.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Move mixture to \"Full Rich\" (forward) slowly.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Oil Pressure",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Should be alive within 10 sec. If more than 30 immediate shutdown.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Before Taxi",
+      "checklists": [
+        {
+          "title": "Before Taxi",
+          "items": [
+            {
+              "prompt": "Engine RPM",
+              "expectation": "1000-1200",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Warm up engine at 1000-1200 RPM. Avoid prolonged idling at low engine speeds as this practice may result in fouled spark plugs. Engine is warm enough for take-off when it can develop full RPM and the throttle can be opened without backfiring or skipping of the engine or the throttle can be opened without a reduction in oil pressure.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Beacon",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN Update",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "If needed insert updated database card.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Avionics Master",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "EDM Fuel quantity",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Check EDM and GTN650 for proper fuel quantity. Refill if necessary",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Transponder",
+              "expectation": "1200 AND ALT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Unless instructed differently",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Radios",
+              "expectation": "CHECKED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Weather Information",
+              "expectation": "NOTED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ATIS or as available",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Altimeter",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "If no ATIS information available, set pressure in Kollsman window so altimeter reads field elevation.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Stratux",
+              "expectation": "ON  CONNECTED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cage AHRS if IMC expected",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Passenger Briefing",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Seatbelts!",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Toe Brakes",
+              "expectation": "TEST",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Taxi Clearance",
+              "expectation": "OBTAINED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Before Takeoff",
+      "checklists": [
+        {
+          "title": "Run-Up",
+          "items": [
+            {
+              "prompt": "When stopped, head airplane into the wind.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Operate the engine on the ground only with the propeller in high RPM setting (control forward).",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Keep mixture \"full rich\" (control forward) per the POH.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Do not overheat engine by prolonged ground running. Monitor the cylinder head temperature gauge.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Controls",
+              "expectation": "FREE & CORRECT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Quantity Indicator",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector Valve",
+              "expectation": "FULLEST TANK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pressure",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Oil Pressure and Temperature",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cylinder Head Temperature",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Manifold Pressure & Tachometer",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Check manifold pressure gauge and tachometer for readings proportional to engine power",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "VSI, ASI, TC",
+              "expectation": "ZERO",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Check rate of climb (vertical speed indicator, VSI), airspeed indicator (ASI), and turn and bank indicator (turn coordinator, TC) for zero readings",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "AI, DG",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Check artificial horizon (attitude indicator, AI) and HSI for proper orientation",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Lights",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Test gear indicator and vacuum warning lights",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Cowl Flaps",
+              "expectation": "OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1700",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Magnetos",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "125 RPM Max drop, smooth operation.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "If one magneto runs rough, see Clear Fouled Plugs under Abnormal checklist.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1800-2000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CYCLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Exercise the propeller at 1800-2000 RPM by pulling the propeller control to the \"full-out\" position. After the tachometer has shown a drop-off of 100 RPM, push the propeller to the \"full-in\" position.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Voltage Gauge",
+              "expectation": "13.0+ VDC",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "If equipped",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Electrical Load Meter",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At 1200 RPM or greater, operation of any electrical equipment should give an indication",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Final Checks",
+          "items": [
+            {
+              "prompt": "Trim",
+              "expectation": "SET TO TAKE OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "The intermediate mark in the pointer range is the normal take-off setting for the trim control",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Wing Flaps",
+              "expectation": "SET FOR TAKE-OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Set the flap-shaped control (adjacent to the flap handle) in the down position. Pump flap handle twice.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Lights",
+              "expectation": "LANDING AND STROBES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Check other lights if flight is at night",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Radios and GPS",
+              "expectation": "SETUP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Tower Clearance",
+              "expectation": "OBTAINED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ATC IFR ground  Clearance as necessary.  Disconnect iPad Bluetooth to use phone audio.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Doors & Windows",
+              "expectation": "SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "All Seat Belts",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ensure center seat area clear",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Take Off",
+      "checklists": [
+        {
+          "title": "Normal Takeoff",
+          "items": [
+            {
+              "prompt": "(Short field takeoff procedure moved to Abnormal section)",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Move the throttle to the full open position slowly.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Rotate",
+              "expectation": "65 – 75 MPH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Apply back pressure at about 65-75 MPH airspeed.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "When the M20 breaks ground, it will tend to \"rock\" into a nose-high attitude. To compensate for this tendency, relax some of the elevator back pressure as the nose wheel leaves the ground.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "For best results and a smoother take-off, do not allow the nose of the M20 to lift above the horizon during take-off.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "After some practice, you will find that you can make your smoothest take-offs by applying elevator back pressure as flying speed is approached then slowly reducing the back pressure as you feel the nose wheel lifting from the ground. This will allow the aircraft to fly smoothly from the runway without any abrupt change in pitch attitude.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Once airborne",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Brakes",
+              "expectation": "APPLY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Apply brakes to stop wheel rotation",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Landing Gear",
+              "expectation": "RETRACT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "2550-2600 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Electric Fuel Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Climb Out",
+          "items": [
+            {
+              "prompt": "Flaps",
+              "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Place the flap control in the up position (raised by spring / air pressure)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Climb Power Setting",
+              "expectation": "25\" MP / 2500 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch",
+              "expectation": "CLIMB SPEED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "105 MPH IAS Vx",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "80 MPH IAS Vy",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Cruise climb 115-120mph",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Landing Light",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Cruise",
+      "checklists": [
+        {
+          "title": "Cruise",
+          "items": [
+            {
+              "prompt": "Cowl Flaps",
+              "expectation": "CLOSE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Trim",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Trim nose down to level flight",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Power",
+              "expectation": "20-25” MANIFOLD PRESSURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RPM",
+              "expectation": "2200-2700 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Recommended the engine *not* be operated at cruise in range 2150-2300 RPM.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "ADJUST",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture Setting",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Set the mixture control for the fuel/air ratio desired. This is accomplished by use of the exhaust gas temperature indicator on the right side of the panel.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "For best economy, lean the mixture by turning the control counter-clockwise until the indicator shows a peak (maximum) temperature and starts to decrease. Continue leaning until the temperature drops 25°F minimum from the peak.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "To obtain a best power (maximum airspeed) setting, lean to peak temperature and then enrich the mixture (turn control clockwise) until the indicator shows a 100°F drop from peak temperature.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Do not lean the mixture at power settings above 75% rated power.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Operation of the mixture control should be slow enough to account for the slight lag in the EGT instrument.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Fuel Selector",
+              "expectation": "SWITCH AS NEEDED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Note Zulu time and tach time for each switch, per tank. Recommend 30/60/60 switching.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "POH: After take-off with both tanks full, use one tank only until one hour of fuel depleted, then switch to second tank and record the time of switch-over. Use all the fuel in the second tank. Then, the time of fuel remaining in the first tank is the time it took to deplete the second tank, less one hour. However, this will be correct only if the cruise altitude and power setting remain unchanged.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Cruise Climb",
+              "expectation": "PITCH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "115-120 MPH en route climb",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "To Increase Power",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "First, increase engine speed (RPM) by means of the propeller control.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Second, increase manifold pressure by means of the throttle.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "To Decrease Power",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "First, reduce manifold pressure by means of the throttle.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Second, decrease engine speed (RPM) by means of the propeller control.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Power Boost",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "When full throttle has been used and additional power is desired, the Power Boost control may be pulled out, provided the atmosphere is free of visible dust. This will allow the engine airflow to bypass the filter and provide approximately one inch Hg additional manifold pressure.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Landing",
+      "checklists": [
+        {
+          "title": "Before Landing (G.U.M.P.S.)",
+          "items": [
+            {
+              "prompt": "Power Boost (Ram Air)",
+              "expectation": "CLOSED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Push control in to close Power Boost ram air intake",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Manifold Pressure",
+              "expectation": "REDUCE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "By reducing manifold pressure below cruise setting and retaining cruise speed, a let-down can be made without excessive engine cooling.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "19\" 2350RPM",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Fuel Selector",
+              "expectation": "FULLEST TANK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Undercarriage",
+              "expectation": "LANDING GEAR DOWN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Below 120 MPH. Green Indicator (if not illuminated, can swap in red \"gear up\" indicator).",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Parking Brake",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Seatbelts",
+              "expectation": "ON AND SECURE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Landing Light",
+              "expectation": "ON AS REQUIRED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Base Leg",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Fly the base leg at 90 MPH.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "AS REQUIRED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Apply below 100 MPH. Flap control in down position. 4 1/2 pumps for full deflection. As flaps are extended, aircraft will become nose heavy.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Trim",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Roll the trim back to the aircraft will glide hands-off at approximately 80 MPH.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "The addition of a slight amount of power will flatten out the glide considerably.",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Normal Landing",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Begin your flare-out for landing closer to the ground than you ordinarily would, for two reasons:",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "1. The Executive 21 sits lower to the ground than most aircraft; and",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "2. The Executive 21 requires very little altitude to make a transition from a glide to a landing attitude. A slight addition of back pressure is sufficient to stop the rate of descent.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Flaps",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "It is recommended that full flaps be used on all landings, because of the added visibility over the nose that it affords. However, the use of full flaps tends to make an aircraft nose-heavy, and it is therefore necessary to roll the trim well back to make a good landing.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "After Landing",
+          "items": [
+            {
+              "prompt": "Flaps",
+              "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Taxi Clearance",
+              "expectation": "OBTAINED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Shutdown and Securing Plane",
+          "items": [
+            {
+              "prompt": "Electrical Equipment (Switches)",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Radios",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "IDLE AT 1000-1100 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUT – OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "RETARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "As engine stops firing, retard throttle all the way out to eliminate engine vibration (POH)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Ignition (Mags)",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "After engine spools down",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Master",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Time",
+              "expectation": "LOGGED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Specifications",
+      "checklists": [
+        {
+          "title": "Specifications",
+          "items": [
+            {
+              "prompt": "Specifications",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "2740lbs  =  Maximum Gross Weight",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "1745 lbs  =  Basic Empty Weight",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "  610 lbs  =  Payload with Full Fuel",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "  802 lbs  =  Payload with Fuel ½ Fuel\r12.2 gph  =  Fuel Consumption @ 75% Power (2600RPM, 22\" HG @ 7500', ~183mph)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "  9.5 gph  =  Fuel Consumption @ 57% Power (2300RPM, 20\" HG @ 7500', ~164mph)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "     64 gal  =  Total Fuel Capacity (26 per side)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "     100 LL =  Fuel Octane Rating  (BLUE)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "       8 qts  =  Oil Sump Capacity",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "       6 qts  =  Minimum Oil Quantity     ",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "    200 hp  =  Lycoming IO-360 A1A",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "        12 V  =  Battery",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "        3.8g  =  Positive Limit Load Factor",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "           -1.5g  =  Negative Limit Load Factor",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "Speeds for Normal Operations",
+          "items": [
+            {
+              "prompt": "Speeds for Normal Operation",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Vx              94 MPH = Best Angle of Climb Speed\rVy            105 MPH = Best Rate of Climb Speed",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Vbest l/d 107 MPH = Best Glide (Lift/Drag), Flaps Up/Down",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Vs              68 MPH = Stall Speed, Normal Configuration\rVso            62 MPH = Stall Speed, Landing Configuration\rVfe           105 MPH = Maximum flap Extension Speed",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Vlo           120 MPH = Maximum Landing Gear Operation ",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Va            135 MPH = Maneuvering Speed (at Gross Weight)",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "                 104mph = Empty",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Vno          175 MPH = Maximum Structural Cruising Speed",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Vne          200 MPH = Never Exceed Speed",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "            115-120MPH = Normal Climb Out",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "             65 MPH = Short Field Take Off, Flaps 15°",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "             90 MPH = Normal Landing Approach, Flaps Up",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "             80 MPH = Normal Landing Approach, Flaps 15°",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "             75 MPH = Short Field Approach, Flaps 33°",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "\"I suggest flying the pattern at 100 MPH downwind, 90 MPH on base, 80 MPH on final, and 70-75 MPH over the numbers.\"",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        }
+      ],
+      "category": "normal"
+    },
+    {
+      "title": "Engine Start Procedures",
+      "checklists": [
+        {
+          "title": "Engine Restart",
+          "items": [
+            {
+              "prompt": "If a tank runs dry and the engine loses power:",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "RETARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Restarting with advanced throttle may cause engine over speeding and can lead to mechanical malfunction.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Cold)",
+          "items": [
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Prop",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Run for 5 seconds",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "~1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pressure Gauges",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ignition Switch (Mags)",
+              "expectation": "START",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "When engine fires, release starter key and firmly (but not rapidly move mixture control to full rich",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "LEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "After engine is running, lean mixture control for smooth idle",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Hot) Technique 1",
+          "items": [
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Prop",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "10-12 seconds",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1000 RPM / IDLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL LEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Crank Engine",
+              "expectation": "ENGINE START",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Engine should start after a couple of rotations",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "ADVANCE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Hot) Technique 2",
+          "items": [
+            {
+              "prompt": "Master Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "LEAVE AT ~1000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Prop",
+              "expectation": "LEAVE FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "LEAVE AT IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Starter",
+              "expectation": "ENGAGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Expect about 15-20 blades before the engine fires",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "When the engine fires, smoothly (not rapidly) move mixture control to full rich",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "LEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "After idling, lean the mixture for smooth operation on the ground and during taxi",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Hot) Technique 3",
+          "items": [
+            {
+              "prompt": "Prop",
+              "expectation": "FULL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "1000 RPM SETTING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "RUN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Run for a few seconds until fuel pressure indicator is in the green, then turn off",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Starter",
+              "expectation": "ENGAGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Crank and slowly advance mixture. It will catch usually before you are 1/2 way to full rich. Once it does, go full rich.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Warm)",
+          "items": [
+            {
+              "prompt": "Mixture Idle Cut-Off",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Throttle Closed",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Fuel Pump On",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Fuel Pressure Observed",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Fuel Pump Off",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Throttle 1/2 Open",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Clear Prop",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Engage Starter",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Mixture In to 1/2",
+              "type": "ITEM_CHALLENGE"
+            },
+            {
+              "prompt": "Throttle back to 1000 rpm",
+              "type": "ITEM_CHALLENGE"
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Flooded)",
+          "items": [
+            {
+              "prompt": "Master Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Prop",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL FORWARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Run for 3 seconds",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Starter",
+              "expectation": "ENGAGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Slowly pull the throttle back towards idle as the engine is turning over with the starter engaged.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "When the throttle is reduced to about 1/2-3/4 way towards the idle position, the engine should fire after the throttle hits the position for the perfect fuel/air mixture for starting.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "When the engine fires, smoothly increase the mixture to full rich",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "NORMAL IDLE SPEED (1000-1100 RPM)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "LEAN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "After idling for a while, lean the mixture for smooth operation on the ground and during taxi",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "Engine Start (Flooded) (POH)",
+          "items": [
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUTOFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Propeller",
+              "expectation": "CLEAR",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Starter",
+              "expectation": "ENGAGE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "RETARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "When engine starts, retard throttle",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Boost Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Manual Starting (POH)",
+          "items": [
+            {
+              "prompt": "Manual Starting Procedure",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "As the engine is \"propped,\" hold the magneto switch in the \"start\" position to operate the starter vibrator and furnish a retarded spark to the engine.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Do not push the magneto switch. This engages the starter.",
+              "type": "ITEM_WARNING",
+              "indent": 1
+            },
+            {
+              "prompt": "When the engine starts, release the switch to the \"Both\" position.",
+              "type": "ITEM_PLAINTEXT"
+            }
+          ]
+        }
+      ],
+      "category": "abnormal"
+    },
+    {
+      "title": "Other Procedures",
+      "checklists": [
+        {
+          "title": "Clear Fouled Plugs",
+          "items": [
+            {
+              "prompt": "If, during the magneto check in the run-up, one magneto runs rough, follow this procedure.",
+              "type": "ITEM_PLAINTEXT"
+            },
+            {
+              "prompt": "Magneto Switch",
+              "expectation": "BOTH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "800 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Allow engine to run at 800 RPM for a minute",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "2200 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Slowly increase the power to 2200 RPM",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Magneto Switch",
+              "expectation": "CHECK L, CHECK R",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "This operation will usually burn out the carbon deposits and allow the magnetos to check properly.",
+              "type": "ITEM_PLAINTEXT"
+            }
+          ]
+        },
+        {
+          "title": "Short Field Takeoff Obstacle Clearance",
+          "items": [
+            {
+              "prompt": "Flaps",
+              "expectation": "22° (FULL DOWN)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "2nd notch upon rotation",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Carburetor Heat",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "FULL OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rotate",
+              "expectation": "60 MPH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Climb Speed",
+              "expectation": "80 MPH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Verify",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "This checklist came from the M20B...",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        }
+      ],
+      "category": "abnormal"
+    },
+    {
+      "title": "Engine Failure",
+      "checklists": [
+        {
+          "title": "During Takeoff",
+          "items": [
+            {
+              "prompt": "Throttle",
+              "expectation": "PULL TO IDLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Brakes",
+              "expectation": "APPLY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUT – OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Master",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Ignition Switch (Mags)",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Immediately After Takeoff",
+          "items": [
+            {
+              "prompt": "Airspeed",
+              "expectation": "MAINTAIN SAFE AIRSPEED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Selector Valve",
+              "expectation": "SWITCH TANKS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "FULL RICH",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "RETARD",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Restarting with advanced throttle may cause engine over speeding and can lead to mechanical malfunction.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": " If engine failure is caused by fuel exhaustion, power will not be regained after tanks are switched until empty fuel lines are filled. This may take up to 10 sec.",
+              "type": "ITEM_NOTE"
+            },
+            {
+              "prompt": "Engine Failure",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "AVIATE ...... Immediately pitch for Best Glide Speed",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "NAVIGATE ... Find a place to land and fly toward it",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "RESTART ....... Switch Fuel Tanks, Fuel Pump on, Mixture Full Rich, cycle Mags.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "GET HELP ...... Switch Transponder to 7700 then Transmit MAYDAY on 121.5",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "SECURE PLANE ..... Fuel Selector OFF, Fuel Pump OFF, Mixture IDLE OFF, and Mags OFF... Open Door ",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            }
+          ]
+        },
+        {
+          "title": "During Flight",
+          "items": [
+            {
+              "prompt": "Restarting with advanced throttle may cause engine over speeding and can lead to mechanical malfunction.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "AVIATE ...... Immediately pitch for Best Glide Speed",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "NAVIGATE ... Find a place to land and fly toward it",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "RESTART ....... Switch Fuel Tanks, Fuel Pump on, Mixture Full Rich, cycle Mags.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "GET HELP ...... Switch Transponder to 7700 then Transmit MAYDAY on 121.5",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "SECURE PLANE ..... Fuel Selector OFF, Fuel Pump OFF, Mixture IDLE OFF, and Mags OFF... Open Door ",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": " If engine failure is caused by fuel exhaustion, power will not be regained after tanks are switched until empty fuel lines are filled. This may take up to 10 sec.",
+              "type": "ITEM_NOTE",
+              "indent": 1
+            }
+          ]
+        }
+      ],
+      "category": "emergency"
+    },
+    {
+      "title": "Fire",
+      "checklists": [
+        {
+          "title": "Engine Fire",
+          "items": [
+            {
+              "prompt": "Fuel Selector Valve",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pump",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "CLOSED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Mixture",
+              "expectation": "IDLE CUT-OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cabin Heat & Air",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Defroster",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Land",
+              "expectation": "IMMEDIATELY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Electrical / Cabin Fire",
+          "items": [
+            {
+              "prompt": "Master Switch",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Vents",
+              "expectation": "OPEN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cabin Heat & Air",
+              "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Land",
+              "expectation": "AS SOON AS POSSIBLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "emergency"
+    }
+  ]
+}
