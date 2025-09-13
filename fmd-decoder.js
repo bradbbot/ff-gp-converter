@@ -1,7 +1,7 @@
 // ForeFlight .fmd file decoder based on EFIS Editor source code
 class ForeFlightDecoder {
-    static readonly CIPHER_KEY = new Uint8Array([0x81, 0xe0, 0x6e, 0x41, 0xa9, 0x3f, 0x38, 0x48]);
-    static readonly CIPHER_BLOCK_SIZE = 16;
+    static CIPHER_KEY = new Uint8Array([0x81, 0xe0, 0x6e, 0x41, 0xa9, 0x3f, 0x38, 0x48]);
+    static CIPHER_BLOCK_SIZE = 16;
 
     static async decryptFMD(file) {
         try {
