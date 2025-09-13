@@ -1,5 +1,5 @@
 // FF-GP Converter - ForeFlight to Garmin Checklist Converter
-// Based on reverse-engineered Garmin .gplts format
+// Now with proper .fmd file parsing!
 
 class FFGPConverter {
     constructor() {
@@ -86,12 +86,13 @@ class FFGPConverter {
             this.showProgress();
             this.convertBtn.disabled = true;
             
-            // Read the .fmd file
-            const arrayBuffer = await this.currentFile.arrayBuffer();
+            // Step 1: Decrypt the .fmd file
+            this.updateProgress(20, 'Decrypting .fmd file...');
+            const checklistData = await ForeFlightDecoder.decryptFMD(this.currentFile);
             
-            // For now, we'll create a basic .gplts structure
-            // In a full implementation, you'd parse the .fmd format
-            const gpltsData = await this.createGPLTSFile(arrayBuffer);
+            // Step 2: Convert to Garmin format
+            this.updateProgress(50, 'Converting to Garmin format...');
+            const gpltsData = await this.createGPLTSFile(checklistData);
             
             this.hideProgress();
             this.showStatus('Conversion completed successfully!', 'success');
@@ -109,32 +110,19 @@ class FFGPConverter {
         }
     }
 
-    async createGPLTSFile(fmdData) {
-        // This is a simplified implementation
-        // In practice, you'd need to:
-        // 1. Parse the .fmd format (which appears to be encrypted/compressed)
-        // 2. Extract the checklist data
-        // 3. Convert to Garmin's format
-        // 4. Apply AES-CBC encryption with the known key
+    async createGPLTSFile(checklistData) {
+        // Convert the decrypted ForeFlight data to Garmin format
+        // This is where we'll implement the actual Garmin .gplts format
         
-        // For demonstration, we'll create a basic structure
-        const checklistData = {
-            name: this.currentFile.name.replace('.fmd', ''),
-            items: [
-                { type: 'note', text: 'Converted from ForeFlight format' },
-                { type: 'item', text: 'Checklist item 1' },
-                { type: 'item', text: 'Checklist item 2' }
-            ]
-        };
-
-        // Create a simple binary structure (this is not the actual .gplts format)
-        // The real implementation would use the Garmin format we discovered
+        console.log('Decrypted checklist data:', checklistData);
+        
+        // For now, create a basic structure
+        // TODO: Implement proper Garmin .gplts format based on your working example
+        
         const encoder = new TextEncoder();
-        const jsonData = JSON.stringify(checklistData);
+        const jsonData = JSON.stringify(checklistData, null, 2);
         const data = encoder.encode(jsonData);
         
-        // For now, return the data as-is
-        // In the real implementation, you'd apply the Garmin encryption
         return new Blob([data], { type: 'application/octet-stream' });
     }
 
@@ -154,26 +142,18 @@ class FFGPConverter {
         URL.revokeObjectURL(url);
     }
 
+    updateProgress(percent, message) {
+        this.progressBar.style.width = percent + '%';
+        this.showStatus(message, 'info');
+    }
+
     showProgress() {
         this.progress.style.display = 'block';
         this.progressBar.style.width = '0%';
-        
-        // Simulate progress
-        let progress = 0;
-        const interval = setInterval(() => {
-            progress += Math.random() * 15;
-            if (progress > 90) progress = 90;
-            this.progressBar.style.width = progress + '%';
-        }, 200);
-
-        this.progressInterval = interval;
     }
 
     hideProgress() {
         this.progress.style.display = 'none';
-        if (this.progressInterval) {
-            clearInterval(this.progressInterval);
-        }
     }
 
     showStatus(message, type = 'info') {
@@ -187,10 +167,9 @@ document.addEventListener('DOMContentLoaded', () => {
     new FFGPConverter();
 });
 
-// TODO: Implement the actual Garmin .gplts format conversion
-// Based on the EFIS Editor source code, we need to:
-// 1. Parse the .fmd format (likely encrypted/compressed)
-// 2. Convert to Garmin's protocol buffer format
-// 3. Apply AES-CBC encryption with key: 00000000000000000000000000000000
-// 4. Create a TAR.GZ archive with the encrypted content
-// 5. Output as .gplts file
+// TODO: Next step - implement the actual Garmin .gplts format
+// We now have the decrypted ForeFlight data, but need to:
+// 1. Convert it to Garmin's protocol buffer format
+// 2. Apply TAR.GZ compression
+// 3. Apply AES-CBC encryption with the Garmin key
+// 4. Output the correct .gplts format
